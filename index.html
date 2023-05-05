@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="portal">
+        <div class="header">
+            <p>Student Portal</p>
+        </div>
+        <div class="body-section">
+            <div class="search-section">
+                <input type="text" value="Search" id="search-input">
+                <button id="search-btn">Search</button>
+            </div>
+            <div class="buttons-section">
+                <button class="sort-btns" id="sorta2z">Sort A->Z</button>
+                <button class="sort-btns" id="sortz2a">Sort Z->A</button>
+                <button class="sort-btns" id="sortByMarks">Sort By Marks</button>
+                <button class="sort-btns" id="sortByPassing">Sort By Passing</button>
+                <button class="sort-btns" id="sortByClass">Sort By Class</button>
+                <button class="sort-btns" id="sortByGender">Sort By Gender</button>
+            </div>
+            <div class="table-section">
+                <table>
+                    <thead>
+                        <tr>
+                            <td>ID</td>
+                            <td>Name</td>
+                            <td>Gender</td>
+                            <td>Class</td>
+                            <td>Marks</td>
+                            <td>Passing</td>
+                            <td>Email</td>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
